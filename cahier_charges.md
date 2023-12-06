@@ -54,13 +54,13 @@ Les différentes phases du projet :
 
 - Phase 1 : Cahier des charges et réflexion
 - Phase 2 : Charte graphique | Logo | Maquettes
-- Phase 3 : Développement de la maquette et des différenteso fonctionnalités
+- Phase 3 : Développement de la maquette et des différentes fonctionnalités
 - Phase 4 : Mise en production et lancement
 
 ### 7.Méthodologie et gestion de projet 
 
 - Outils de gestion : Github, Github Projects, Figma
-- Gestion des risques et des problèmes rencontrés : identifier et évaluer le rsique, mettre un plan d'action en cas de problème
+- Gestion des risques et des problèmes rencontrés : identifier et évaluer le risque, mettre un plan d'action en cas de problème
 
 ### 8.Livrables 
 
