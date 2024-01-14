@@ -1,0 +1,15 @@
+@import "_variables";
+
+.blinker {
+  display: inline-block;
+  background-color: $text-color;
+  height: 24px;
+  width: 24px;
+  animation: blinker 0.7s infinite;
+
+  vertical-align: b;
+}
+
+@keyframes blinker {
+  50% { background-color: transparent; }
+}

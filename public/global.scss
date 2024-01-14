@@ -1,4 +1,6 @@
 @import "styles/_variables";
+@import "styles/blinker";
+
 body {
   background-color: $primary-background-color;
   color: $text-color;
@@ -8,5 +10,16 @@ body {
 .landpage-title {
   font-family: $primary-font;
   font-size: 72px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, $primary-background-color 15.88%, $secondary-background-color 108.61%),$primary-background-color;
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
 }
 
