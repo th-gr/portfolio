@@ -1,5 +1,5 @@
 <template>
-  <span class="blinker"></span>
+  <span class="blinker"><slot></slot></span>
 </template>
 
 <script setup>
