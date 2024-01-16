@@ -32,7 +32,7 @@ onLoop(({ delta, elapsed }) => {
 });
 
 const gl = {
-  clearColor: "#756596",
+
   shadows: true,
   alpha: false,
   shadowMapType: BasicShadowMap,

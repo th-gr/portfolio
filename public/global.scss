@@ -1,5 +1,6 @@
 @import "styles/_variables";
 @import "styles/blinker";
+@import "styles/canvas";
 
 body {
   background-color: $primary-background-color;
@@ -8,6 +9,8 @@ body {
 }
 
 .landpage-title {
+  position: fixed;
+  z-index: 1;
   font-family: $primary-font;
   font-size: 72px;
   display: flex;
@@ -17,15 +20,18 @@ body {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(180deg, $primary-background-color 15.88%, $secondary-background-color 108.61%),$primary-background-color;
+  // background: linear-gradient(180deg, $primary-transparent-color 15.88%, $secondary-background-color 108.61%);
   h2 {
-    font-size: 28px;
+    font-size: 24px;
     font-family: $sub-title-font;
+    color: $sub-title-color;
   }
 }
 
-.landpage-canvas {
-  width: 50%;
-  height: 50%;
+
+.landpage-logo {
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
