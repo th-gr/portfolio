@@ -9,7 +9,7 @@
       <TresMeshNormalMaterial />
     </TresMesh>
     <TresDirectionalLight :position="[3, 3, 3]" :intensity="1" />
-    <TresAmbientLight :intensity="2" />
+    <TresAmbientLight :intensity="5" />
   </TresCanvas>
 </template>
   
@@ -24,15 +24,12 @@ const boxRef = shallowRef(null);
 const { onLoop } = useRenderLoop();
 
 
-onLoop(({ delta, elapsed }) => {
-  if (boxRef.value) {
-    boxRef.value.rotation.y += delta;
-    boxRef.value.rotation.z = elapsed * 0.2;
-  }
+onLoop(() => {
+  boxRef.value.rotation.y += 0.01;
 });
 
 const gl = {
-
+  "clear-color" : "#504C57",
   shadows: true,
   alpha: false,
   shadowMapType: BasicShadowMap,

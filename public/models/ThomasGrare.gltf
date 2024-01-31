@@ -16,16 +16,38 @@
     {
       "mesh": 0,
       "name": "Curve",
+      "rotation": [
+        0.6532814502716064,
+        0.2705981135368347,
+        -0.2705981433391571,
+        0.6532814502716064
+      ],
       "scale": [
-        60,
-        60,
-        60
+        75,
+        75,
+        75
       ],
       "translation": [
-        0,
-        0,
-        0
+        0.30512213706970215,
+        0.03675994649529457,
+        0.0398188978433609
       ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8470157384872437,
+          0.8549553751945496,
+          0.8795589804649353,
+          0.6
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
     }
   ],
   "meshes": [
@@ -38,7 +60,8 @@
             "NORMAL": 1,
             "TEXCOORD_0": 2
           },
-          "indices": 3
+          "indices": 3,
+          "material": 0
         }
       ]
     }
@@ -47,29 +70,29 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 2040,
+      "count": 2069,
       "max": [
-        0.026529572904109955,
+        0.011488520540297031,
         0.0024999999441206455,
-        0
+        0.014474847353994846
       ],
       "min": [
-        0,
+        -0.015041052363812923,
         -0.0024999999441206455,
-        -0.026523828506469727
+        -0.01204898115247488
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 2040,
+      "count": 2069,
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 2040,
+      "count": 2069,
       "type": "VEC2"
     },
     {
@@ -82,33 +105,33 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 24480,
+      "byteLength": 24828,
       "byteOffset": 0,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 24480,
-      "byteOffset": 24480,
+      "byteLength": 24828,
+      "byteOffset": 24828,
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 16320,
-      "byteOffset": 48960,
+      "byteLength": 16552,
+      "byteOffset": 49656,
       "target": 34962
     },
     {
       "buffer": 0,
       "byteLength": 11880,
-      "byteOffset": 65280,
+      "byteOffset": 66208,
       "target": 34963
     }
   ],
   "buffers": [
     {
-      "uri": "logo_tg_data.bin",
-      "byteLength": 77160
+      "uri": "ThomasGrare_data.bin",
+      "byteLength": 78088
     }
   ]
 }
