@@ -8,14 +8,23 @@
   src: url("../font/Rubik/Rubik-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Mono Space";
+  src: url("../font/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+}
 
 $primary-background-color: #504C57;
+$primary-transparent-color: rgba(96, 76, 87, 1);
 $secondary-background-color: #756596;
-
-
-$primary-font: "Maven Pro";
 
 $text-font: "Rubik";
 $text-color: #EDEEF1;
+
+$primary-font: "Maven Pro";
+$secondary-font : "Rubik";
+
+$sub-title-color: mix($text-color, $secondary-background-color, 80%);
+$sub-title-font: "Mono Space";
+
 
 
