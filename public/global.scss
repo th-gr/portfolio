@@ -1,6 +1,7 @@
 @import "styles/_variables";
 @import "styles/blinker";
 @import "styles/canvas";
+@import "styles/landpage";
 
 body {
   background-color: $primary-background-color;
@@ -8,32 +9,3 @@ body {
   font-family: $text-font;
 }
 
-.landpage-title {
-  position: fixed;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(180deg, transparent, $secondary-background-color 160%);
-  h1 {
-    font-family: $primary-font;
-    font-size: 72px;
-    opacity: 80%;
-  }
-  h2 {
-    font-size: 24px;
-    font-family: $sub-title-font;
-    color: $sub-title-color;
-  }
-}
-
-
-.landpage-logo {
-  z-index: -1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
