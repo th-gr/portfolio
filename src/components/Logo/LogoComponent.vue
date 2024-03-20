@@ -16,7 +16,7 @@ onMounted(async () => {
   const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
 
 
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
   mount.value.appendChild(renderer.domElement);
 
   const loader = new GLTFLoader();
@@ -34,7 +34,7 @@ onMounted(async () => {
 
   const controls = new OrbitControls(camera, renderer.domElement);
 
-  camera.position.z = 6;
+  camera.position.z = 3;
 
   const animate = () => {
     requestAnimationFrame(animate);
